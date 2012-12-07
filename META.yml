@@ -20,8 +20,10 @@ no_index:
     - html
     - inc
     - t
+  package:
+    - RT::FM::Article
 requires:
   perl: 5.8.3
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.03
+version: 0.04

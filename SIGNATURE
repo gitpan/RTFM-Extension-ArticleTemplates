@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 72ad80e9a2234a9b7269bebf72d876177c41dc05 Changes
+SHA1 5441e7c5296bce28423cc8e2e197b2d088ae22be Changes
 SHA1 e1795f24d9aeb68e954970599396bdb719574d4b MANIFEST
-SHA1 5d079df95ac05fa8bd4761e2734b5e4860eaffe4 META.yml
-SHA1 af19976efa556025ccf946fddd368c724cdeac90 Makefile.PL
+SHA1 88a6e923d87ed40e804b18d8c26190e03d4598ca META.yml
+SHA1 742f44a27f702bb089ea498026d4108de98bb08b Makefile.PL
 SHA1 57bfec99b3e3e2a29a93e84621b012694e94193f README
 SHA1 b1030d4339400819cf7217f2a9bf3ffac7eb5670 html/Callbacks/RTFM-Extension-ArticleTemplates/RTFM/Article/Elements/Preformatted/ProcessContent
 SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
@@ -34,7 +34,7 @@ SHA1 dc94326a076aca41452c1d65bf52a255feeb9ef7 inc/Module/Install/ReadmeFromPod.p
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 5b71ea556882c000f4b1a1d2e825a9a72b616d0a lib/RT/FM/Article_Local.pm
-SHA1 8a121b7b19cac6929c07c97ef4bfe2e2bc9c4075 lib/RTFM/Extension/ArticleTemplates.pm
+SHA1 b0695d14c4dc1a65bad0a759731cf993ba91bb62 lib/RTFM/Extension/ArticleTemplates.pm
 SHA1 52133cba7e7418ff5a2797614321a9fdae999bd6 t/00.load.t
 SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
 SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
@@ -42,7 +42,7 @@ SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
 Version: GnuPG v1.4.12 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAlDBTLYACgkQ0+gKWp5CJQofEACdFMp716lB3p+GYgTgyQFqi0Lj
-vyUAniBHiim9RD7/TYRGSCb4nKxvqWGw
-=GZeo
+iEYEARECAAYFAlDBTm0ACgkQ0+gKWp5CJQpNFQCfaJ/EU3mdnKAKjkhg2upRt94G
+UoMAoNZ/lV2ZJWd4h4N0Gas7WGYDlSiA
+=G32Q
 -----END PGP SIGNATURE-----
