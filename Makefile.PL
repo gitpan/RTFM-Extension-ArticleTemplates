@@ -3,17 +3,18 @@ use inc::Module::Install;
 RTx         'RTFM-Extension-ArticleTemplates';
 license     'GPL version 2';
 all_from    'lib/RTFM/Extension/ArticleTemplates.pm';
+readme_from 'lib/RTFM/Extension/ArticleTemplates.pm';
 
 build_requires 'Test::More';
-# XXX: This should be reported by M::I::RTx
-my ($lib_path) = $INC{'RT.pm'} =~ /^(.*)[\\\/]/;
-my $local_lib_path = "$RT::LocalPath/lib";
+{ # check RT version
+    my @v = split /\./, "$RT::VERSION";
+    if ($v[0] >= 4) {
+        die "\n\nThis module doesn't work with RT 4.x, you have $RT::VERSION.\nUse RT::Extension::ArticleTemplates instead.\n\n";
+    }
+}
 
-unshift @INC, $local_lib_path, $lib_path;
-# XXX: Cannot depend on RT::FM with new plugins subsystem
-#requires('RT::FM' => '2.2.2');
+sign;
 
 auto_install;
-
 WriteAll;
 
